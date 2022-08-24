@@ -1,0 +1,29 @@
+.tablero{
+    min-height: 80vh;
+    background-color: white ;
+}
+.tableroIzquierda{
+    min-height: 80vh;
+    background-color: aqua;
+}
+.tableroDerecha{
+    min-height: 80vh;
+    background-color: aqua;
+}
+.renglonCasillero{
+    width: 40vw;
+    // height: 2rem;
+}
+.casilleroTablero{
+    width: 8%;
+    height: 1rem;
+    margin: 1%;
+    background-color: transparent;
+
+}    
+.casilleroConBarco{
+    background-color: #555;
+}
+.casilleroSinBarco{
+    background: #559;
+}

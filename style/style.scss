@@ -1,0 +1,28 @@
+@import "./scss/variables";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: map-get($fontSize, "xl" );
+    
+}
+body{
+    background-color: $bColor;
+    min-height: 100vh;
+}
+header{
+    min-height: 5rem;
+    object-fit:cover;
+    // background-image: url(../img/portada.svg);
+    // background-color: $bColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: 2rem;
+        text-shadow: 0.2rem 0.2rem 0.2rem blanchedalmond;
+    }
+}
+@import  "./scss/_tablero";
